@@ -5,14 +5,14 @@ class Casa{
         this.tijolo = tijolo
         this.cimento = cimento
         this.madeira = madeira
-        this.tenha = telha
+        this.telha = telha
         this.tinta = tinta
 
     }
 
     contruidoUmaCasa(){
 
-        if(this.tijolo == 10.000, this.cimento == 80, this.madeira == 700, this.telha == 800, this.tinta == 30 ){
+        if(this.tijolo == 10.000, this.cimento == 80, this.madeira == 1.000, this.telha == 700, this.tinta == 50){
             
             console.log("a casa esta feita")
 
@@ -26,6 +26,6 @@ class Casa{
 
 }
 
-const casa = new Casa(10.000, 80, 700, 800, 30)
+const casa = new Casa(6, 6, 6, 6, 6)
 
-Casa.contruidoUmaCasa()
+casa.contruidoUmaCasa()
