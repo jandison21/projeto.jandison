@@ -26,6 +26,6 @@ class Casa{
 
 }
 
-const casa = new Casa(6, 6, 6, 6, 6)
+const casa = new Casa(10.000, 80, 1.000, 700, 50)
 
 casa.contruidoUmaCasa()
